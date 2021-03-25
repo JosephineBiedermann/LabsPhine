@@ -1,4 +1,4 @@
-# LabsPhine
+# LabsPhine :fox_face:
 
 In this repository you will find all the Labs for the DABC2021.
 
