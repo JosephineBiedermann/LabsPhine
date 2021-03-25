@@ -7,8 +7,8 @@ They are organized by Weeks.
 Please look in the respective week to find the Jupyter Notebook file for desired Lab.
 
 
-## Table of Content
-- Week1
+### Table of Content
+- **Week1**
   - Jupyter Notebook Lab
   - LAB_CAR1
   - LAB_CAR2
