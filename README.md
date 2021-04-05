@@ -13,3 +13,9 @@ Please look in the respective week to find the Jupyter Notebook file for desired
   - LAB_CAR1
   - LAB_CAR2
   - LAB_CAR3
+
+- **Week2**
+  - LAB_ML
+
+- **Week3**
+  - LAB_SQL_Day1
