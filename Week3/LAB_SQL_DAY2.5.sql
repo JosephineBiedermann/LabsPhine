@@ -29,6 +29,11 @@ SELECT time_format(avg(length),'%H %i %s'), time_format(avg(length), '%i') as ho
 FROM sakila.film f;
 #1hour and 15min
 
+#revised
+SELECT film_id, length, round(floor(avg(length/60)),2) as fullhours, round(floor(avg(length%60)),2) as minutes
+FROM sakila.film f
+GROUP BY film_id;
+
 #5.How many distinct (different) actors' last names are there?
 select count(distinct(first_name))
 from sakila.actor a;
@@ -42,7 +47,7 @@ SELECT r.rental_date
 FROM sakila.rental r
 order by r.rental_date DESC;
 
-SELECT Datediff(Max(r.rental_date),Min(r.rental_date))
+SELECT Datediff(Max(r.return_date),Min(r.rental_date)) as amount_of_days
 FROM sakila.rental r;
 #266 days
 
@@ -60,9 +65,9 @@ END AS 'day_type'
 FROM sakila.rental r;
 
 #9.How many rentals were made in the last month of renting activity?
-select date_format(max(r.rental_date), '%M %Y')
+select date_format(max(r.rental_date), '%M %Y') as month_last_rental
 from sakila.rental r;
-#havnig a look what the last month of renting activity is
+#having a look what the last month of renting activity is
 
 select count(r.rental_id)
 from sakila.rental r
