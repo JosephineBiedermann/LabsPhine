@@ -85,7 +85,8 @@ WHERE f.title = 'Academy Dinosaur';
 #rental duration 6days
 SELECT date_add(day,6,curdate()) as return_date;
 #dont know why this is not working, maybe curdate has not the right format to add days?
-
+SELECT date_add(curdate(),interval 6 day) as return_date;
+#now it works
 
 #staff_id of Mike Hill
 SELECT s.staff_id
@@ -95,8 +96,81 @@ WHERE first_name = 'Mike';
 
 #last_update - current date
 
-INSERT into sakila.rental
-VALUES ('16050','2021-04-06 17:09:00','4582','130','2021-04-12 00:00:00','1','2021-04-06 17:09:00');
+INSERT into sakila.rental (rental_id,rental_date,inventory_id,customer_id,return_date,staff_id,last_update)
+VALUES (16050,'2021-04-06 17:09:00',4582,130,'2021-04-12 00:00:00',1,'2021-04-06 17:09:00');
+
+INSERT INTO sakila.rental (rental_id, rental_date, inventory_id, customer_id, return_date, staff_id, last_update)
+VALUES (99999999, '2005-05-24 22:53:30', 3, 130, '2005-05-26 22:04:30',1, '2005-05-26 22:04:30');
 #hm I get an error, I think it has something to do with the keys inventory and rental id
 #i guess i have to link them somehow with a key
 
+#right click to table rental "copy to clipboard" insert statement to see how it should be enteres
+INSERT INTO `sakila`.`rental`
+(`rental_id`,
+`rental_date`,
+`inventory_id`,
+`customer_id`,
+`return_date`,
+`staff_id`,
+`last_update`)
+VALUES
+(<{rental_id: }>,
+<{rental_date: }>,
+<{inventory_id: }>,
+<{customer_id: }>,
+<{return_date: }>,
+<{staff_id: }>,
+<{last_update: CURRENT_TIMESTAMP}>);
+
+#and same with creat statement to see where there are constraints in keys etc
+CREATE TABLE `rental` (
+  `rental_id` int(11) NOT NULL AUTO_INCREMENT,
+  `rental_date` datetime NOT NULL,
+  `inventory_id` mediumint(8) unsigned NOT NULL,
+  `customer_id` smallint(5) unsigned NOT NULL,
+  `return_date` datetime DEFAULT NULL,
+  `staff_id` tinyint(3) unsigned NOT NULL,
+  `last_update` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (`rental_id`),
+  UNIQUE KEY `rental_date` (`rental_date`,`inventory_id`,`customer_id`),
+  KEY `idx_fk_inventory_id` (`inventory_id`),
+  KEY `idx_fk_customer_id` (`customer_id`),
+  KEY `idx_fk_staff_id` (`staff_id`),
+  CONSTRAINT `fk_rental_customer` FOREIGN KEY (`customer_id`) REFERENCES `customer` (`customer_id`) ON DELETE RESTRICT ON UPDATE CASCADE,
+  CONSTRAINT `fk_rental_inventory` FOREIGN KEY (`inventory_id`) REFERENCES `inventory` (`inventory_id`) ON DELETE RESTRICT ON UPDATE CASCADE,
+  CONSTRAINT `fk_rental_staff` FOREIGN KEY (`staff_id`) REFERENCES `staff` (`staff_id`) ON DELETE RESTRICT ON UPDATE CASCADE
+) ENGINE=InnoDB AUTO_INCREMENT=100000000 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+
+#9.
+SELECT *
+FROM sakila.customer
+WHERE active = 0;
+
+CREATE TABLE if not exists delete_users(
+`customer_id` smallint(5) unsigned NOT NULL AUTO_INCREMENT,
+ `email` varchar(50) DEFAULT NULL,
+ `create_date` datetime NOT NULL);
+ 
+CREATE TABLE `customer` (
+  `customer_id` smallint(5) unsigned NOT NULL AUTO_INCREMENT,
+  `store_id` tinyint(3) unsigned NOT NULL,
+  `first_name` varchar(45) NOT NULL,
+  `last_name` varchar(45) NOT NULL,
+  `email` varchar(50) DEFAULT NULL,
+  `address_id` smallint(5) unsigned NOT NULL,
+  `active` tinyint(1) NOT NULL DEFAULT '1',
+  `create_date` datetime NOT NULL,
+  `last_update` timestamp NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (`customer_id`),
+  KEY `idx_fk_store_id` (`store_id`),
+  KEY `idx_fk_address_id` (`address_id`),
+  KEY `idx_last_name` (`last_name`),
+  CONSTRAINT `fk_customer_address` FOREIGN KEY (`address_id`) REFERENCES `address` (`address_id`) ON DELETE RESTRICT ON UPDATE CASCADE,
+  CONSTRAINT `fk_customer_store` FOREIGN KEY (`store_id`) REFERENCES `store` (`store_id`) ON DELETE RESTRICT ON UPDATE CASCADE
+) ENGINE=InnoDB AUTO_INCREMENT=600 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+INSERT INTO deleted_users
+select customer_id, email, curdate()
+from
+where
