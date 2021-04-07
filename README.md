@@ -23,3 +23,4 @@ Please look in the respective week to find the Jupyter Notebook file for desired
   - LAB_SQL_Day2.6
   - LAB_SQL_Day3grouping
   - LAB_SQL_Day3rank
+  - LAB_SQL_Day3join
