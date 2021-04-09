@@ -25,4 +25,4 @@ Please look in the respective week to find the Jupyter Notebook file for desired
   - LAB_SQL_Day3rank
   - LAB_SQL_Day3join
   - LAB_SQL_Day4ERD
-  - [LAB_SQL_Day4join](url:https://github.com/JosephineBiedermann/LabsPhine/blob/main/Week3/LAB_SQL_DAY4join.sql)
+  - [LAB_SQL_Day4join](https://github.com/JosephineBiedermann/LabsPhine/blob/main/Week3/LAB_SQL_DAY4join.sql)
