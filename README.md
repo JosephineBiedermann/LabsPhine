@@ -28,4 +28,4 @@ Please look in the respective week to find the Jupyter Notebook file for desired
   - [LAB_SQL_Day4join](https://github.com/JosephineBiedermann/LabsPhine/blob/main/Week3/LAB_SQL_DAY4join.sql)
   - [LAB_SQL_Day5 CSV](https://github.com/JosephineBiedermann/LabsPhine/blob/main/Week3/LAB_SQL_Day5_datam.csv)
   - [LAB_SQL_Day5 Jupyter Notebook](https://github.com/JosephineBiedermann/LabsPhine/blob/main/Week3/LAB_SQL_Day5pythonconnect.ipynb)
-  - LAB_SQL_Day5 Visualisation 1 2 3 -not yet done
+  - LAB_SQL_Day5 Visualisation [1](https://github.com/JosephineBiedermann/LabsPhine/blob/main/Week3/cat1.png) [2](https://github.com/JosephineBiedermann/LabsPhine/blob/main/Week3/cat2.png) [3](https://github.com/JosephineBiedermann/LabsPhine/blob/main/Week3/count1.png)
