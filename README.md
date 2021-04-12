@@ -31,4 +31,4 @@ Please look in the respective week to find the Jupyter Notebook file for desired
   - LAB_SQL_Day5 Visualisation [1](https://github.com/JosephineBiedermann/LabsPhine/blob/main/Week3/cat1.png) [2](https://github.com/JosephineBiedermann/LabsPhine/blob/main/Week3/cat2.png) [3](https://github.com/JosephineBiedermann/LabsPhine/blob/main/Week3/count1.png)
 
 - **Week4**
-- [LAB_ML_Logistic_Regression.ipynb](https://github.com/JosephineBiedermann/LabsPhine/blob/main/Week4/LAB_ML_210412.ipynb)
+  - [LAB_ML_Logistic_Regression.ipynb](https://github.com/JosephineBiedermann/LabsPhine/blob/main/Week4/LAB_ML_210412.ipynb)
