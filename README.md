@@ -15,7 +15,7 @@ Please look in the respective week to find the Jupyter Notebook file for desired
   - [LAB_CAR3](https://github.com/JosephineBiedermann/LabsPhine/blob/main/Week1/LAB_CAR3.ipynb)
 
 - **Week2** - Visualising Data to answer questions, introduction to Machine Learning
-  - [LAB_ML](https://github.com/JosephineBiedermann/LabsPhine/blob/main/Week2/LAB_ML.ipynb)
+  - [LAB_ML_Linear_Regression](https://github.com/JosephineBiedermann/LabsPhine/blob/main/Week2/LAB_ML.ipynb)
 
 - **Week3** - Querying and Relational Modelling with Data
   - [LAB_SQL_Day1](https://github.com/JosephineBiedermann/LabsPhine/blob/main/Week3/LAB_SQL_DAY1.sql)
