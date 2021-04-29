@@ -48,5 +48,5 @@ Please look in the respective week to find the Jupyter Notebook file for desired
   -  [Dashboarding](https://public.tableau.com/profile/josephine.biedermann#!/vizhome/dashboardpractice_16195165690490/topleveldashboard)
   -  [Data sources and joining](https://public.tableau.com/profile/josephine.biedermann#!/vizhome/LondonRecyclingratesperborough2003-20/RecyclingratesperLondonborough2003-20)
   -  [Story telling](https://public.tableau.com/profile/josephine.biedermann#!/vizhome/ProjectStoryTelling/Story1)
-  -  T tests & p values
+  -  [LAB_statistics_T-tests & p values](https://github.com/JosephineBiedermann/LabsPhine/blob/main/Week6/LAB_statistics_t-test.ipynb)
   -  
