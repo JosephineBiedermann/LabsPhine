@@ -38,3 +38,15 @@ Please look in the respective week to find the Jupyter Notebook file for desired
   - [LAB_ML_Feature-extraction(Pandas)](https://github.com/JosephineBiedermann/LabsPhine/blob/main/Week4/LAB_pandas-concat-merge-join.ipynb)
   - [LAB_ML_Feature-extraction(main)](LAB_Feature-selection.ipynb)
   - [LAB_distribution](LAB_random-distribution.ipynb)
+
+- **Week5** - Mid-term project Machine Learning
+  -  [Case Study Classification - credit card offer acceptance](https://github.com/JosephineBiedermann/ironhack-case-study-classification)
+
+- **Week6** - Tableau, Storytelling with Data + applying judgement to your observations
+  -  [RFM Tiers](https://public.tableau.com/profile/josephine.biedermann#!/vizhome/LabsPhine-RFM/Dashboard1)
+  -  [Grouping](https://public.tableau.com/profile/josephine.biedermann#!/vizhome/LabsPhine-Grouping/G-5)
+  -  [Dashboarding](https://public.tableau.com/profile/josephine.biedermann#!/vizhome/dashboardpractice_16195165690490/topleveldashboard)
+  -  [Data sources and joining](https://public.tableau.com/profile/josephine.biedermann#!/vizhome/LondonRecyclingratesperborough2003-20/RecyclingratesperLondonborough2003-20)
+  -  [Story telling](https://public.tableau.com/profile/josephine.biedermann#!/vizhome/ProjectStoryTelling/Story1)
+  -  T tests & p values
+  -  
