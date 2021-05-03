@@ -43,15 +43,15 @@ Please look in the respective week to find the Jupyter Notebook file for desired
   -  [Case Study Classification - credit card offer acceptance](https://github.com/JosephineBiedermann/ironhack-case-study-classification)
 
 - **Week6** - Tableau, Storytelling with Data + applying judgement to your observations
-  -  LAB_Tableau_[RFM Tiers](https://public.tableau.com/profile/josephine.biedermann#!/vizhome/LabsPhine-RFM/Dashboard1)
-  -  LAB_Tableau_[Grouping](https://public.tableau.com/profile/josephine.biedermann#!/vizhome/LabsPhine-Grouping/G-5)
-  -  LAB_Tableau_[Dashboarding](https://public.tableau.com/profile/josephine.biedermann#!/vizhome/dashboardpractice_16195165690490/topleveldashboard)
-  -  LAB_Tableau_[Data sources and joining](https://public.tableau.com/profile/josephine.biedermann#!/vizhome/LondonRecyclingratesperborough2003-20/RecyclingratesperLondonborough2003-20)
+  -  [LAB_Tableau_RFM Tiers](https://public.tableau.com/profile/josephine.biedermann#!/vizhome/LabsPhine-RFM/Dashboard1)
+  -  [LAB_Tableau_Grouping](https://public.tableau.com/profile/josephine.biedermann#!/vizhome/LabsPhine-Grouping/G-5)
+  -  [LAB_Tableau_Dashboarding](https://public.tableau.com/profile/josephine.biedermann#!/vizhome/dashboardpractice_16195165690490/topleveldashboard)
+  -  [LAB_Tableau_Data sources and joining](https://public.tableau.com/profile/josephine.biedermann#!/vizhome/LondonRecyclingratesperborough2003-20/RecyclingratesperLondonborough2003-20)
   -  [LAB_Tableau_Story telling](https://public.tableau.com/profile/josephine.biedermann#!/vizhome/ProjectStoryTelling/Story1)
   -  [LAB_statistics_T-tests & p values](https://github.com/JosephineBiedermann/LabsPhine/blob/main/Week6/LAB_statistics_t-test.ipynb)
   -  AB testing data
   -  ANOVA
-  -  LAB_Python prep 1, 2, 3, 4
+  -  LAB_Python prep [1](url), 2, [3](https://github.com/JosephineBiedermann/LabsPhine/blob/main/Week6/challenge-4.ipynb), [4](https://github.com/JosephineBiedermann/LabsPhine/blob/main/Week6/challenge-4.ipynb)
 
 - **Week7** - Gathering data from the the unstructured world - the web, social, text, music
-  -  LAB_[Webscraping](https://github.com/JosephineBiedermann/LabsPhine/blob/main/Week7/LAB_Webscraping.ipynb)
+  -  [LAB_Webscraping](https://github.com/JosephineBiedermann/LabsPhine/blob/main/Week7/LAB_Webscraping.ipynb)
