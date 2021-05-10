@@ -54,4 +54,7 @@ Please look in the respective week to find the Jupyter Notebook file for desired
   -  LAB_Python prep [1](url), 2, [3](https://github.com/JosephineBiedermann/LabsPhine/blob/main/Week6/challenge-4.ipynb), [4](https://github.com/JosephineBiedermann/LabsPhine/blob/main/Week6/challenge-4.ipynb)
 
 - **Week7** - Gathering data from the the unstructured world - the web, social, text, music
-  -  [LAB_Webscraping](https://github.com/JosephineBiedermann/LabsPhine/blob/main/Week7/LAB_Webscraping.ipynb)
+  -  [GNOD Case Study](https://github.com/JosephineBiedermann/Week7Project)
+
+- **Week8** - Case Studies, building for accuracy and insight + refine / progress your final project
+  - [LAB_NLP](https://github.com/JosephineBiedermann/LabsPhine/blob/main/Week8/LAB_NLP.ipynb)  
