@@ -59,3 +59,4 @@ Please look in the respective week to find the Jupyter Notebook file for desired
 - **Week8** - Case Studies, building for accuracy and insight + refine / progress your final project
   - [LAB_NLP](https://github.com/JosephineBiedermann/LabsPhine/blob/main/Week8/LAB_NLP.ipynb)  
   - [LAB_Computer Vision](https://github.com/JosephineBiedermann/LabsPhine/blob/main/Week8/LAB_Computer-Vision.ipynb)
+  - [LAB_Random Forrest](https://github.com/JosephineBiedermann/LabsPhine/blob/main/Week8/LAB_decision_tree_cookies_students.ipynb)
